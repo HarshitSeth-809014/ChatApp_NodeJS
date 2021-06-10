@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is our server with Node JS. Here, It will be used by our chat app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Harshit Seth",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.1.2"
+  }
+}

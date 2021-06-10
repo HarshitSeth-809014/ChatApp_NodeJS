@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    display: block;
+    margin: auto;
+    width: 135px;
+    height: 76px;
+}
+nav h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(blue, purple);
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 100vh;
+}
+
+.container {
+    border: 5px solid red;
+    border-radius: 8px;
+    width: 75%;
+    height: 70%;
+    margin: 10px auto;
+    overflow: auto;
+    background-color: rgb(165, 163, 163); 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.messages {
+    margin: 8px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    max-width: 70%;
+    background-color: wheat;
+}
+.messages .member {
+    font-size: 11px;
+    margin-bottom: 2px;
+    color: red;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+.right {
+    float: right;
+    clear: both;
+}
+.right .member{
+    text-align: right;
+}
+
+.joinLeave {
+    margin: 8px;
+    text-align: center;
+}
+.joinLeave span {   
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    max-width: 700px;
+    background-color: rgb(241, 238, 233);
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: block;
+    margin: 0px 5px;
+    width: 70%;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.inp button {
+    display: block;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 0;
+}
