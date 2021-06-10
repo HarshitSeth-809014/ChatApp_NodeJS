@@ -1,8 +1,7 @@
 
-# Project Title
+# ChatApp_NodeJS
 
-A brief description of what this project does and who it's for
-
+It is a chat app with NodeJS and SocketIO. You can communicate with anyone in world if on server. You will talk to random people.
 
 ## Run Locally
 
