@@ -15,7 +15,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my_project
+  cd my_project/server
 ```
 
 Install dependencies
