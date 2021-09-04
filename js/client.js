@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000')
+const socket = io('https://chat-app-node-js-dusky.vercel.app/')
 
 const ting = new Audio('../ting.mp3')
 const join = new Audio('../join.mp3')
